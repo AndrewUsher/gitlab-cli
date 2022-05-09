@@ -7,10 +7,10 @@
  * @author Andrew Usher <https://andrewusher.dev>
  */
 
-const init = require('./utils/init')
-const cli = require('./utils/cli')
-const log = require('./utils/log')
-const { handleSnippets } = require('./commands/snippets/snippets')
+const init = require('./src/utils/init')
+const cli = require('./src/utils/cli')
+const log = require('./src/utils/log')
+const { handleSnippets } = require('./src/commands/snippets/snippets')
 
 const input = cli.input
 const flags = cli.flags
